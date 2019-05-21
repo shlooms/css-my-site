@@ -1,31 +1,50 @@
 body {
+  color: #226597;
   font-family: 'Source Code Pro', monospace;
   margin: 0;
   text-align: center;
-  color: #226597;
 }
 
 h1 {
+  color: #226597;
   font-family: 'Sacramento', cursive;
-  font-size: 45px;
-  left: 42%;
+  font-size: 5.625rem;
   margin: 0;
   margin-top: 0;
-  position: absolute;
-  top: 59px;
-  color: #226597;
+  position: relative;
+}
+
+h2 {
+font-size: 2.5rem;
+}
+
+h3 {
+font-size: 1.5rem;
 }
 
 table {
+  font-size: 1.17rem;
   text-align: left;
+
+}
+
+p {
+font-size: 1.03rem;
+  margin: 0;
+}
+
+.main-sub-header {
+  font-size: 1.28rem;
 }
 
 .mountain-img {
 border: 0;
+margin: 0;
+position: relative;
+right: 36px;
 }
 
 .computer-img {
-
 width: 18%;
 }
 
@@ -38,11 +57,13 @@ width: 18%;
 .bottom-container {
   background-color: #f3f9fb;
   padding: 20px;
+  font-size: 1.00rem;
 }
 
 .contact-me {
   padding-bottom: 20px;
 }
+
 
 .top-container {
   background-color: #f3f9fb;
@@ -54,9 +75,9 @@ width: 18%;
 
 
 .bottom-cloud {
-  bottom: 250px;
-  left: 200px;
-  position: relative;
+    bottom: 250px;
+    left: 18px;
+    position: relative;
 }
 
 .top-cloud {
@@ -78,8 +99,10 @@ width: 18%;
 }
 
 .btn {
-  position: absolute;
+  color: inherit;
 font-family: monospace;
-font-weight: bolder;
-color: inherit;
+position: absolute;
+margin-top: 35px;
+background-color: red;
+padding: 5px 10px;
 }
