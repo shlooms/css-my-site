@@ -57,15 +57,16 @@ table {
 }
 
 .man-img {
-  width: 128px;
-  margin-top: 45px;
   height: 128px;
+  margin-top: 45px;
+  width: 128px;
 }
 
 .bottom-container {
   background-color: #f3f9fb;
-  padding: 20px;
   font-size: 1.00rem;
+  padding: 20px;
+
 }
 
 .contact-me {
