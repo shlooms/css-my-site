@@ -1,0 +1,85 @@
+body {
+  font-family: 'Source Code Pro', monospace;
+  margin: 0;
+  text-align: center;
+  color: #226597;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 45px;
+  left: 42%;
+  margin: 0;
+  margin-top: 0;
+  position: absolute;
+  top: 59px;
+  color: #226597;
+}
+
+table {
+  text-align: left;
+}
+
+.mountain-img {
+border: 0;
+}
+
+.computer-img {
+
+width: 18%;
+}
+
+.man-img {
+  width: 128px;
+  margin-top: 45px;
+  height: 128px;
+}
+
+.bottom-container {
+  background-color: #f3f9fb;
+  padding: 20px;
+}
+
+.contact-me {
+  padding-bottom: 20px;
+}
+
+.top-container {
+  background-color: #f3f9fb;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-top: 100px;
+}
+
+
+.bottom-cloud {
+  bottom: 250px;
+  left: 200px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.stars:hover {
+  color: gold;
+}
+
+.mail-img {
+  width: 120px;
+}
+
+.linkedin-img {
+  width: 40px;
+}
+
+.btn {
+  position: absolute;
+font-family: monospace;
+font-weight: bolder;
+color: inherit;
+}
