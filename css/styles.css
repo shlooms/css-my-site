@@ -19,6 +19,7 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
+  margin: auto;
 }
 
 hr {
@@ -33,8 +34,10 @@ hr {
 
 p {
   font-size: 1.03rem;
+  line-height: 2;
   margin: 0 auto;
   width: 50%;
+
 
 }
 
@@ -46,6 +49,7 @@ table {
 .main-sub-header {
   font-size: 1.6rem;
   font-weight: normal;
+  margin-top: 0;
 }
 
 .mountain-img {
@@ -86,15 +90,15 @@ table {
 }
 
 .bottom-cloud {
-  bottom: 250px;
-  left: 18px;
-  position: relative;
+  bottom: 20%;
+  left: 18%;
+  position: absolute;
 }
 
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 30%;
 }
 
 .stars:hover {
@@ -118,4 +122,14 @@ margin: 20px;
   padding: 5px 10px;
   position: absolute;
   text-decoration: none;
+}
+
+.design-progress {
+margin-top: 45px;
+  width: 19%;
+}
+
+.progress-row {
+  text-align: left;
+  margin: 0 auto;
 }
