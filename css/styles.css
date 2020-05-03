@@ -51,7 +51,7 @@ table {
 
 .bottom-cloud {
   bottom: 250px;
-  left: 250px;
+  left: 150px;
   position: absolute;
   z-index: 1;
 }
